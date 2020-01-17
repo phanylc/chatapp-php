@@ -1,0 +1,338 @@
+body {
+    background-color: lightseagreen;
+}
+
+.container {
+    margin: 25px auto;
+    background-color: white;
+    -webkit-box-shadow: -2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: -2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+.backimagemensaje {
+    background-image: url("/public/img/chat-wp.jpg");
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.imguser {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    padding: 1px;
+    border-radius: 25px;
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+
+
+}
+
+.mensaje {
+    margin-top: 5px;
+    height: 700px;
+    overflow: auto;
+
+
+}
+
+.scroll {
+    margin-right: -15px;
+    margin-top: -1px;
+    padding-top: 10px;
+}
+
+.mensaje-recibido,
+.mensaje-enviado {
+    display: inline-block;
+
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, .13);
+}
+
+.mensaje-enviado {
+    float: right;
+    background-color: #dcf8c6;
+}
+
+.mensaje-recibido {
+    background-color: white;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+    /* Tamaño del scroll en vertical */
+    height: 8px;
+    /* Tamaño del scroll en horizontal */
+    /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.scroll::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+.escribir {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+
+.backimage {
+    background-color: whitesmoke;
+    padding-left: -5px;
+}
+
+.parrafo {
+    padding: 0px;
+    font-size: 14px;
+
+}
+
+.imgnot {
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    padding: 1px;
+    border-radius: 25px;
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 13px;
+    border: none;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.mensajes {
+    border: 1px solid;
+}
+
+.bginput {
+    background-color: whitesmoke;
+    padding: 1px 10px;
+}
+
+.input1 {
+    margin-top: 5px;
+    height: 30px;
+    border: none;
+    border-color: whitesmoke;
+    margin-bottom: 5px;
+    border-radius: 20px !important;
+}
+
+
+
+.input2 {
+    height: 40px;
+    border: none;
+    border-color: whitesmoke;
+    margin-bottom: 0px;
+
+    border-radius: 20px !important;
+
+
+}
+
+.hover:hover {
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.contactos-modal {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.contactos {
+    padding-left: 33px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.divisor-info-contacto{
+    padding-bottom: 7px;
+}
+
+.modal-body-info{
+    width: 990px;   
+}
+.caja-info{
+    width: 100%;
+}
+.caja-info1{
+  padding-left: 20px;
+}
+.caja-infoimagen{
+    padding-left: -20px;
+}
+.modal-body-perfil{
+    width: 1000px;
+}
+.modal-body-perfil-filtro{
+    width: 1000px;
+    opacity: 0;
+}
+.imgmodalperfil{
+    width: 150px;
+    height: 150px;
+}
+.nombre-usu-perfil{
+    margin-top: 100px;
+}
+
+.botones {
+    padding-left: 25px;
+    padding-right: 0px;
+    display: none;
+
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.listaperfil {
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    list-style: none;
+    padding: 0px;
+    border-radius: 5px;
+    right: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    display: none;
+}
+
+.listaperfil2 {
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    list-style: none;
+    padding: 0px;
+    border-radius: 5px;
+    right: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.29);
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.listaperfil a {
+    display: block;
+    padding: 5px 40px;
+    width: 200px;
+    text-decoration: none;
+
+
+}
+
+.listaperfil2 a {
+    display: block;
+    padding: 5px 40px;
+    width: 200px;
+    text-decoration: none;
+
+
+}
+
+.cerrarsesion {
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .backimagemensaje {
+        display: block;
+        margin: 0px !important;
+        width: 100%;
+        height: 100vh !important;
+        max-width: 100%;
+
+    }
+
+    .contactos {
+        padding-top: 20px;
+
+    }
+
+    .emoji {
+        margin-top: 16px;
+    }
+
+    .chatsmensajes {
+        height: 75vh !important;
+    }
+
+    .enviar {
+        margin-top: 25px;
+        padding: 0px;
+    }
+
+
+    .chats {
+        display: none;
+    }
+
+    .botones {
+        display: block;
+    }
+
+    .vistatable {
+        margin: 0px !important;
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .vistatable {
+        margin: 0px !important;
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+    }
+
+    .botones {
+        display: block;
+    }
+
+    .mensaje {
+        height: 450px;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
